@@ -60,9 +60,9 @@ worldModel.update(4)
 console.log("Big snakes new position is:", bigSnake.position,);
 bigSnake.turnLeft();
 console.log("Big snake turns:", bigSnake.direction,);
-bigSnake.move(2);
+worldModel.update(2);
 console.log("Big snake new position is:", bigSnake.position,);
 bigSnake.turnLeft();
 console.log("Big snake turns:", bigSnake.direction,);
-bigSnake.move(4);
+worldModel.update(4);
 console.log("Big snake new position is:", bigSnake.position,);
